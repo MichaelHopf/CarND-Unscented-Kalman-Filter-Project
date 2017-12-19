@@ -67,7 +67,8 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
-
+  long iteration;
+  float EPS;
   /**
    * Constructor
    */
